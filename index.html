@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cheat Sheet</title>
+    <link href="./styles/index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 id="logo">HTML tables</h1>
+        <a href="#aboutCard"><h5>About tables</h5></a>
+        <a href="#tagsCard"><h5>HTML tags</h5></a>
+        <a href="#exampleCard"><h5>Examples</h5></a>
+        <a href="#resultsCard"><h5>Results</h5></a>
+      </nav>
+    </header>
+    <main>
+      <section id="aboutCard">
+        <h1>What is a Table</h1>
+        <p>
+          A table is a structured set of data made up of rows and columns
+          (tabular data). A table allows you to quickly and easily look up
+          values that indicate some kind of connection between different types
+          of data, for example a person and their age, or a day of the week, or
+          the timetable. Tables are very commonly used in human society, and
+          have been for a long time so it is no wonder that the creators of HTML
+          provided a means by which to structure and present tabular data on the
+          web.
+        </p>
+      </section>
+      <section id="tagsCard">
+        <h1>HTML tags for Tables</h1>
+        <table>
+          <th>
+            <tr>
+              <td>Tag</td>
+              <td>Stands for</td>
+              <td>What is used for</td>
+            </tr>
+          </th>
+          <tr>
+            <td>&lt;table&gt;</td>
+            <td>---</td>
+            <td>The content of every table is enclosed by these two tags</td>
+          </tr>
+          <tr>
+            <td>&lt;td&gt;</td>
+            <td>'Table Data'</td>
+            <td>This element creates a single cell that renders data</td>
+          </tr>
+          <tr>
+            <td>&lt;tr&gt;</td>
+            <td>'Table Row'</td>
+            <td>Places cells together to make up a row</td>
+          </tr>
+          <tr>
+            <td>&lt;th&gt;</td>
+            <td>'Table Header'</td>
+            <td>
+              Creates special cells that go at the start of a row or column and
+              define the type of data that row or column contains
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section id="exampleCard">
+        <h1>Example of code</h1>
+
+        &lt;table&gt;<br />
+        <section>
+          &lt;tr&gt; <br />
+          &lt;td&gt; (&)nbsp; &lt;/td&gt;<br />
+          &lt;td&gt; Knocky &lt;/td&gt;<br />
+          &lt;td&gt; Flor &lt;/td&gt;<br />
+          &lt;td&gt; Ella &lt;/td&gt;<br />
+          &lt;td&gt; Juan &lt;/td&gt;<br />
+          &lt;/tr&gt; <br />
+        </section>
+        <section>
+          &lt;tr&gt; <br />
+          &lt;td&gt; Breed &lt;/td&gt;<br />
+          &lt;td&gt; Jack Russel &lt;/td&gt;<br />
+          &lt;td&gt; Poodle &lt;/td&gt;<br />
+          &lt;td&gt; Streetdog &lt;/td&gt;<br />
+          &lt;td&gt; Cocker Spaniel &lt;/td&gt;<br />
+          &lt;/tr&gt; <br />
+        </section>
+        <section>
+          &lt;tr&gt; <br />
+          &lt;td&gt; Age &lt;/td&gt;<br />
+          &lt;td&gt; 16 &lt;/td&gt;<br />
+          &lt;td&gt; 9 &lt;/td&gt;<br />
+          &lt;td&gt; 10 &lt;/td&gt;<br />
+          &lt;td&gt; 5 &lt;/td&gt;<br />
+          &lt;/tr&gt; <br />
+        </section>
+        &lt;/table&gt;<br />
+      </section>
+      <section id="resultsCard">
+        <h1>Results</h1>
+        <table>
+          <tr>
+            <td>&nbsp;</td>
+            <td>Knocky</td>
+            <td>Flor</td>
+            <td>Ella</td>
+            <td>Juan</td>
+          </tr>
+          <tr>
+            <td>Breed</td>
+            <td>Jack Russell</td>
+            <td>Poodle</td>
+            <td>Streetdog</td>
+            <td>Cocker Spaniel</td>
+          </tr>
+          <tr>
+            <td>Age</td>
+            <td>16</td>
+            <td>9</td>
+            <td>10</td>
+            <td>5</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+    <footer>
+      Information source:
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics"
+        target="_blank"
+      >
+        MDN web docs
+      </a>
+    </footer>
+  </body>
+</html>
