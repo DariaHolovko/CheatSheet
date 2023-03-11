@@ -1,4 +1,61 @@
-td {
-  max-width: 200px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  margin-bottom: 40px;
+  padding: 20px 0;
   text-align: center;
+  height: 500px;
+}
+nav {
+  margin-bottom: 50px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 5px;
+  padding-bottom: 20px;
+}
+nav a,
+nav h1 {
+  padding: 0 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+img {
+  width: 400px;
+  height: auto;
+}
+#intro .text {
+  padding: 25px;
+  position: relative;
+  top: 75px;
+}
+#intro .text h1,
+.text {
+  text-align: left;
+}
+#intro,
+#aboutCard {
+  margin-bottom: 30px;
+}
+.aboutText {
+  position: relative;
+  right: 20px;
+  top: 70px;
+}
+.aboutText,
+.aboutText h1 {
+  text-align: right;
+}
+#aboutCard img {
+  width: 500px;
+  height: auto;
+}
+h1 {
+  text-align: center;
+}
+td {
+  max-width: 300px;
+  text-align: center;
+  padding: 20px;
 }
