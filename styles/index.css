@@ -36,7 +36,7 @@ img {
 }
 #intro,
 #aboutCard {
-  margin-bottom: 30px;
+  margin: 30px 20px;
 }
 .aboutText {
   position: relative;
@@ -70,4 +70,14 @@ th {
 }
 .tableCard {
   padding: 80px 40px 40px 40px;
+}
+.exampleContainer img {
+  padding-top: 55px;
+}
+.exampleContainer {
+  text-align: center;
+}
+#example {
+  max-height: 500px;
+  overflow: scroll;
 }
