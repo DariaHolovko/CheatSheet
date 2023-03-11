@@ -51,8 +51,10 @@ img {
   width: 500px;
   height: auto;
 }
-h1 {
+h1,
+a {
   text-align: center;
+  font-family: "Gajraj One", cursive;
 }
 table {
   max-width: 500px;
@@ -80,4 +82,12 @@ th {
 #example {
   max-height: 500px;
   overflow: scroll;
+}
+#example,
+p,
+table {
+  font-family: "Chakra Petch", sans-serif;
+}
+footer p {
+  display: inline;
 }
