@@ -63,39 +63,42 @@
       </section>
       <section id="tagsCard">
         <h1>HTML tags for Tables</h1>
-        <section class="table">
-          <table>
+        <section class="tableCard">
+          <table class="table table-striped table-dark">
             <thead>
               <tr>
-                <td>Tag</td>
-                <td>Stands for</td>
-                <td>What is used for</td>
+                <th scope="col">Tags</th>
+                <th scope="col">Meaning</th>
+                <th scope="col">What used for</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>&lt;table&gt;</td>
+                <th scope="row">&lt;table&gt;</th>
                 <td>---</td>
                 <td>
                   The content of every table is enclosed by these two tags
                 </td>
               </tr>
               <tr>
-                <td>&lt;td&gt;</td>
-                <td>'Table Data'</td>
-                <td>This element creates a single cell that renders data</td>
-              </tr>
-              <tr>
-                <td>&lt;tr&gt;</td>
-                <td>'Table Row'</td>
-                <td>Places cells together to make up a row</td>
-              </tr>
-              <tr>
-                <td>&lt;th&gt;</td>
-                <td>'Table Header'</td>
+                <th scope="row">&lt;tr&gt;</th>
+                <td>Table Row</td>
                 <td>
-                  Creates special cells that go at the start of a row or column
-                  and define the type of data that row or column contains
+                  To stop row from growing and start placing subsequent cells on
+                  a second row
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">&lt;td&gt;</th>
+                <td>Table Data</td>
+                <td>Creates a single cell and together they make up the row</td>
+              </tr>
+              <tr>
+                <th scope="row">&lt;th&gt;</th>
+                <td>Table Header</td>
+                <td>
+                  This works in exactly the same way as a &lt;td&gt;, except
+                  that it denotes a header, not a normal cell.
                 </td>
               </tr>
             </tbody>
@@ -107,17 +110,19 @@
 
         &lt;table&gt;<br />
         <section>
+          &lt;thead&gt;<br />
           &lt;tr&gt; <br />
-          &lt;td&gt; (&)nbsp; &lt;/td&gt;<br />
-          &lt;td&gt; Knocky &lt;/td&gt;<br />
-          &lt;td&gt; Flor &lt;/td&gt;<br />
-          &lt;td&gt; Ella &lt;/td&gt;<br />
-          &lt;td&gt; Juan &lt;/td&gt;<br />
+          &lt;th&gt; (&)nbsp; &lt;/th&gt;<br />
+          &lt;th&gt; Knocky &lt;/th&gt;<br />
+          &lt;th&gt; Flor &lt;/th&gt;<br />
+          &lt;th&gt; Ella &lt;/th&gt;<br />
+          &lt;th&gt; Juan &lt;/th&gt;<br />
           &lt;/tr&gt; <br />
+          &lt;thead&gt;<br />
         </section>
         <section>
           &lt;tr&gt; <br />
-          &lt;td&gt; Breed &lt;/td&gt;<br />
+          &lt;th&gt; Breed &lt;/th&gt;<br />
           &lt;td&gt; Jack Russel &lt;/td&gt;<br />
           &lt;td&gt; Poodle &lt;/td&gt;<br />
           &lt;td&gt; Streetdog &lt;/td&gt;<br />
@@ -126,7 +131,7 @@
         </section>
         <section>
           &lt;tr&gt; <br />
-          &lt;td&gt; Age &lt;/td&gt;<br />
+          &lt;th&gt; Age &lt;/th&gt;<br />
           &lt;td&gt; 16 &lt;/td&gt;<br />
           &lt;td&gt; 9 &lt;/td&gt;<br />
           &lt;td&gt; 10 &lt;/td&gt;<br />
@@ -137,29 +142,35 @@
       </section>
       <section id="resultsCard">
         <h1>Results</h1>
-        <table>
-          <tr>
-            <td>&nbsp;</td>
-            <td>Knocky</td>
-            <td>Flor</td>
-            <td>Ella</td>
-            <td>Juan</td>
-          </tr>
-          <tr>
-            <td>Breed</td>
-            <td>Jack Russell</td>
-            <td>Poodle</td>
-            <td>Streetdog</td>
-            <td>Cocker Spaniel</td>
-          </tr>
-          <tr>
-            <td>Age</td>
-            <td>16</td>
-            <td>9</td>
-            <td>10</td>
-            <td>5</td>
-          </tr>
-        </table>
+        <section class="tableCard">
+          <table class="table table-striped table-dark">
+            <thead>
+              <tr>
+                <th scope="col">&nbsp;</th>
+                <th scope="col">Knocky</th>
+                <th scope="col">Flor</th>
+                <th scope="col">Ella</th>
+                <th scope="col">Juan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Breed</th>
+                <td>Jack Russel</td>
+                <td>Poodle</td>
+                <td>Streetdog</td>
+                <td>Cocker Spaniel</td>
+              </tr>
+              <tr>
+                <th scope="row">Age</th>
+                <td>16</td>
+                <td>9</td>
+                <td>10</td>
+                <td>5</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
       </section>
     </main>
     <footer>
