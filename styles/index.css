@@ -80,8 +80,9 @@ th {
   text-align: center;
 }
 #example {
-  max-height: 500px;
+  max-height: 450px;
   overflow: scroll;
+  padding-top: 10px;
 }
 #example,
 p,
